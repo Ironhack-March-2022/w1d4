@@ -71,3 +71,19 @@ body {
 		transform: scale(1)
 	}
 }
+
+/* media queries */
+@media (max-width: 600px) {
+	.container {
+		flex-direction: column;
+	}	
+	.box {
+		width: 80vw;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 500px) {
+	.box {
+		color: red
+	}
+}
